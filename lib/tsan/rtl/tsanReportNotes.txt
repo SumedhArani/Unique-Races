@@ -1,0 +1,21 @@
+//General output 
+	WARNING: /*d.warning()*/ Type of data race
+  Atomic read/*printMop*/: /*d.access()*/
+    Stack
+
+  Memory access
+
+  Location: /*d.location()*/
+    
+
+  Thread T4 (tid=258805, running): /*d.ThreadDescription()*/
+
+SUMMARY: ThreadSanitizer: data race /* ReportTypeString */
+
+
+ReportTypeString - Reports what sort of data race
+Decorator:  CommonSanitiserDecorator
+	Gives color signs
+
+PrintReport
+	Does all of the main reporting
